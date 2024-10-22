@@ -1,0 +1,87 @@
+# shema.graphql
+scalar JSON
+
+type Category {
+    id: ID!
+    name: String!
+    typename: String
+    products: [Product!]
+}
+
+type Product {
+    id: ID!
+    name: String!
+    inStock: Boolean!
+    description: String
+    category: Category
+    brand: String
+    gallery: [Gallery!]
+    prices: [Price!]!
+    attributes: [Attribute!]
+}
+
+type Gallery {
+    id: ID!
+    image_url: String!
+}
+
+type Price {
+    id: ID!
+    amount: Float!
+    currency_label: String!
+    currency_symbol: String!
+}
+
+type Attribute {
+    id: ID!
+    name: String!
+    type: String!
+    items: [AttributeItem!]!
+}
+
+type AttributeItem {
+    id: ID!
+    value: String!
+    display_value: String!
+}
+
+type Order {
+    id: ID!
+    status: String!
+    created_at: String!
+    total_amount: Float!
+    currency_label: String!
+    currency_symbol: String!
+    product_list: JSON!
+}
+
+input OrderInput {
+    products: [OrderProductInput!]!
+    currency_label: String!
+    currency_symbol: String!
+}
+
+input OrderProductInput {
+    id: ID!
+    quantity: Int!
+    price: Float!
+    selectedAttributes: [SelectedAttributeInput!]
+}
+
+input SelectedAttributeInput {
+    id: ID!
+    selectedItemId: ID!
+}
+
+type Query {
+    categories: [Category!]!
+    category(id: ID!): Category
+    products(categoryId: ID): [Product!]!
+    product(id: ID!): Product
+    orders: [Order!]!
+    order(id: ID!): Order
+}
+
+type Mutation {
+    createOrder(input: OrderInput!): Order!
+}
