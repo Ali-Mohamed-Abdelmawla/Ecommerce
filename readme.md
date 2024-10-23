@@ -8,7 +8,7 @@ A test task implementation for Scandiweb featuring an e-commerce platform backen
 - GraphQL API
 - Custom OOP Architecture (No Frameworks)
 - Product, Category & Attribute Models
-- Third-party libraries allowed (Doctrine, Dotenv)
+- Third-party libraries allowed (Dotenv)
 
 ## Frontend Repository
 [E-commerce Frontend](https://github.com/Ali-Mohamed-Abdelmawla/Ecommerce-client.git)
