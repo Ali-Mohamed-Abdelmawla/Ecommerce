@@ -36,7 +36,7 @@ class GraphQLController {
                         // For each product, return one image and the price
                         return [
                             'id' => 1,
-                            'name' => 'All Products',
+                            'name' => 'All',
                             'typename' => 'Category',
                             'products' => array_map(function($product) use ($productService) {
                                 $productDetails = $productService->findById($product['id']);
