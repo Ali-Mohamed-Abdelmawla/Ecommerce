@@ -1,0 +1,31 @@
+[2024-10-20 01:41:45] ERROR: Failed to create order: Price not found for product: apple-imac-2021 and currency: $
+[2024-10-20 01:41:46] ERROR: Failed to create order: Price not found for product: apple-imac-2021 and currency: $
+[2024-10-20 01:46:28] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-20 01:46:35] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-20 01:46:36] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-21 17:54:01] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-21 17:54:01] ERROR: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:54:01] ERROR: Error in createOrder resolver: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:56:07] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-21 17:56:07] ERROR: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:56:07] ERROR: Error in createOrder resolver: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:56:35] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-21 17:56:35] ERROR: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:56:35] ERROR: Error in createOrder resolver: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:59:20] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-21 17:59:20] ERROR: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 17:59:20] ERROR: Error in createOrder resolver: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 18:01:58] ERROR: Price not found for product ID: apple-imac-2021 and currency: $
+[2024-10-21 18:01:58] ERROR: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 18:01:58] ERROR: Error in createOrder resolver: Failed to create order: Invalid price for product: apple-imac-2021
+[2024-10-21 19:31:45] ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'total_amount' cannot be null
+[2024-10-21 19:31:45] ERROR: Failed to create order: Created order is missing createdAt field
+[2024-10-21 19:31:45] ERROR: Error in createOrder resolver: Failed to create order: Created order is missing createdAt field
+[2024-10-21 21:26:18] ERROR: Failed to create order: Created order is missing createdAt field
+[2024-10-21 21:26:18] ERROR: Error in createOrder resolver: Failed to create order: Created order is missing createdAt field
+[2024-10-21 21:51:05] ERROR: Failed to create order: Created order is missing createdAt field
+[2024-10-21 21:51:05] ERROR: Error in createOrder resolver: Failed to create order: Created order is missing createdAt field
+[2024-10-21 22:30:09] ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'currency_label' cannot be null
+[2024-10-21 22:30:09] ERROR: Failed to create order: Created order is missing createdAt field
+[2024-10-21 22:30:09] ERROR: Error in createOrder resolver: Failed to create order: Created order is missing createdAt field
+[2024-11-02 12:33:39] ERROR: Error in ProductService findAll: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away

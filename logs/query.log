@@ -1,0 +1,66 @@
+[2024-10-20 01:46:28] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-20 01:46:28] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-20 01:46:35] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-20 01:46:35] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-20 01:46:36] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-20 01:46:36] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-21 17:54:01] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-21 17:56:07] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-21 17:56:35] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-21 17:59:20] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
+[2024-10-21 18:01:58] QUERY: Executed query: 
+            SELECT p.amount, p.currency_label, p.currency_symbol
+            FROM prices p
+            JOIN products pr ON p.product_id = pr.id
+            WHERE pr.id = ? AND p.currency_label = ?
+        
