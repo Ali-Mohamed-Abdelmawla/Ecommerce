@@ -28,3 +28,4 @@
 [2024-10-21 22:30:09] ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'currency_label' cannot be null
 [2024-10-21 22:30:09] ERROR: Failed to create order: Created order is missing createdAt field
 [2024-10-21 22:30:09] ERROR: Error in createOrder resolver: Failed to create order: Created order is missing createdAt field
+[2024-11-02 12:33:39] ERROR: Error in ProductService findAll: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
