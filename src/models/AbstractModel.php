@@ -11,10 +11,6 @@ abstract class AbstractModel
 
     public function __construct()
     {
-        // print that you began
-        // echo "Model: " . get_class($this) . " has been created. <br />";
-
-
         $this->db = Database::getInstance()->getConnection();
         if (!$this->db) {
             throw new \Exception("Database connection failed.");
